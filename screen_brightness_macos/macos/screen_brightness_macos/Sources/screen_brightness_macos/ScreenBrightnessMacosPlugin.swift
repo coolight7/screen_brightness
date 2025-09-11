@@ -311,7 +311,7 @@ public class ScreenBrightnessMacosPlugin: NSObject, FlutterPlugin {
             return
         }
 
-        try! setScreenBrightness(targetBrightness: systemScreenBrightness)
+        // try! setScreenBrightness(targetBrightness: systemScreenBrightness)
     }
 
     func onApplicationResume() {
@@ -319,6 +319,6 @@ public class ScreenBrightnessMacosPlugin: NSObject, FlutterPlugin {
             return
         }
 
-        try! setScreenBrightness(targetBrightness: applicationScreenBrightness)
+        // try! setScreenBrightness(targetBrightness: applicationScreenBrightness)
     }
 }

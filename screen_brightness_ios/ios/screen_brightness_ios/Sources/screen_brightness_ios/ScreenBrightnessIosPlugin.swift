@@ -274,7 +274,7 @@ public class ScreenBrightnessIosPlugin: NSObject, FlutterPlugin, FlutterApplicat
             return
         }
         
-        setScreenBrightness(targetBrightness: systemScreenBrightness, animated: isAnimate, duration: 0.5)
+        // setScreenBrightness(targetBrightness: systemScreenBrightness, animated: isAnimate, duration: 0.5)
     }
     
     func onApplicationResume() {
@@ -282,6 +282,6 @@ public class ScreenBrightnessIosPlugin: NSObject, FlutterPlugin, FlutterApplicat
             return
         }
         
-        setScreenBrightness(targetBrightness: applicationScreenBrightness, animated: isAnimate, duration: 0.5)
+        // setScreenBrightness(targetBrightness: applicationScreenBrightness, animated: isAnimate, duration: 0.5)
     }
 }
