@@ -1,3 +1,14 @@
+## 2.1.2
+
+### Internal
+
+* sync plugin native file with lastest flutter plugin example
+* update dependency [screen_brightness_platform_interface](../screen_brightness_platform_interface) version
+
+## 2.1.1
+
+* update flutter_lints constraints (>=6.0.0 <7.0.0)
+
 ## 2.1.0
 
 * added canChangeSystemBrightness for user to check if system brightness is changeable
